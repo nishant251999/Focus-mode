@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Focus-Mode",
+    "version": "0.0.1",
+    "description": "Lets you transform the page to focus on reading",
+    "icons": {
+        "128": "icons/icon-128.png"
+    },
+    "action": {
+        "default_icon": {
+            "128": "icons/icon-128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"]
+}
